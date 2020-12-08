@@ -14,7 +14,6 @@ a {
 body {
   background-color: #282828;
   color: white;
-  padding: 36px;
   display: flex;
  justify-content: center; 
   margin: 25px;
@@ -111,9 +110,7 @@ footer {
 
 @media screen and (max-width: 750px) {
   body {
-    border: none;
-    border-radius: none;
-    box-shadow: none;
+    
     font-size: 14px;
   }
 
@@ -138,11 +135,44 @@ footer {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   body {
-    border: none;
-    border-radius: none;
-    box-shadow: none;
+  
+    font-size: 14px;
+  }
+
+  span {
+    line-height: 18px;
+
+  }
+
+  section ul {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  section ul li {
+    width: 100%;
+    max-width: 40rem;
+    height: 90px;
+  }
+
+  section ul {
+    gap: 1.5rem;
+  }
+
+  span.new {
+    top: -0.8rem;
+    right: 1rem;
+    font-size: 0.8rem;
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+  body {
+  
     font-size: 14px;
   }
 
@@ -151,7 +181,7 @@ footer {
   }
 
   section ul li {
-    width: 10rem;
+    width: 12rem;
     max-width: 40rem;
     height: 90px;
   }
