@@ -8,7 +8,8 @@
 :root {
   --laranja-pastel: #dddddd;
   --gradiente-laranja: linear-gradient(170deg, #fad961 15%,#ffe53b 35%,#ff7c25 65%, #f76b1c);
-  --gradiente-insta: linear-gradient(290deg, #4158d0, #c850c0, #ffcc70);
+  --gradiente-insta: linear-gradient(to left, #4158d0, #c850c0, #ffcc70);
+  --gradiente-insta-invertido: linear-gradient(to right, #4158d0, #c850c0, #ffcc70);
   --gradiente-leve: linear-gradient(170deg, #f8f1ea, #f8f1aa);
 }
 
@@ -77,12 +78,13 @@ a#contato {
   padding: 0.5rem;
   border-radius: 1rem;
   font-weight: 400;
-  background: #00374c;
+  background: var(--gradiente-insta);
 }
 
 a#contato:hover {
   transition: all 0.3s ease;
-  background: #015f85;
+  background: var(--gradiente-insta-invertido);
+
 }
 
 /*FOOTER  ----------------------------*/
