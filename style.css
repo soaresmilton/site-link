@@ -29,7 +29,8 @@ header {
 
 
 #logo-image {
-  height: 180px;
+  height: 220px;
+  background-color: white;
   border-radius: 50%;
   margin-top: 1rem;
 }
