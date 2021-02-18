@@ -4,16 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SM Code</title>
-  <link rel="stylesheet" href="style.css">
+  <title>MiltonSoares - SM Code</title>
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
-
- <link rel="shortcut icon" href="/images/SM-CODE-ICON.png" type="image/x-icon">
+  <link rel="stylesheet" href="/assets/styles/main.css">
+  <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-replace-svg="nest"></script>
+  <link rel="shortcut icon" href="assets/images/SM-CODE-ICON.svg" type="image/x-icon">
+  <link rel="stylesheet" href="/script.js">
 
   <!-- Facebook Pixel Code -->
   <script>
@@ -61,40 +58,179 @@
     logged_out_greeting="Olá! Obrigado por entrar em contato! Como posso te ajudar?">
   </div>
 
-  <header clas="header">
-    <h1 class="logo">
-      <a href="https://www.linkedin.com/company/sm-code" target="_blank"><img src="images/SM-CODE-LOGO-1.png" alt="Logo M & C STORE - online shop" id="logo-image"></a>
-    </h1>
-</header>
+  <div class="nav-container">
+    <header>
+      <a href="index.html">
+        <svg class="logo" width="251" height="92" viewBox="0 0 251 92" fill="none" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink">
+          <path
+            d="M15.3408 81L8.80957 59.7178H8.64258C8.8776 64.0472 8.99512 66.9355 8.99512 68.3828V81H3.85547V53.873H11.6855L18.1055 74.6172H18.2168L25.0264 53.873H32.8564V81H27.4941V68.1602C27.4941 67.554 27.5003 66.8551 27.5127 66.0635C27.5374 65.2718 27.624 63.1689 27.7725 59.7549H27.6055L20.6104 81H15.3408ZM39.0166 54.8936C39.0166 53.0505 40.0433 52.1289 42.0967 52.1289C44.1501 52.1289 45.1768 53.0505 45.1768 54.8936C45.1768 55.7718 44.917 56.4583 44.3975 56.9531C43.8903 57.4355 43.1234 57.6768 42.0967 57.6768C40.0433 57.6768 39.0166 56.749 39.0166 54.8936ZM44.917 81H39.2578V60.2559H44.917V81ZM56.5322 81H50.873V52.1289H56.5322V81ZM71.2275 76.8623C72.2171 76.8623 73.4046 76.6458 74.79 76.2129V80.4248C73.3799 81.0557 71.6481 81.3711 69.5947 81.3711C67.3311 81.3711 65.6797 80.8021 64.6406 79.6641C63.6139 78.5137 63.1006 76.7943 63.1006 74.5059V64.5049H60.3916V62.1113L63.5088 60.2188L65.1416 55.8398H68.7598V60.2559H74.5674V64.5049H68.7598V74.5059C68.7598 75.3099 68.9824 75.9036 69.4277 76.2871C69.8854 76.6706 70.4854 76.8623 71.2275 76.8623ZM83.5107 70.5908C83.5107 72.6442 83.8447 74.1966 84.5127 75.248C85.193 76.2995 86.2939 76.8252 87.8154 76.8252C89.3245 76.8252 90.4069 76.3057 91.0625 75.2666C91.7305 74.2152 92.0645 72.6566 92.0645 70.5908C92.0645 68.5374 91.7305 66.9974 91.0625 65.9707C90.3945 64.944 89.2998 64.4307 87.7783 64.4307C86.2692 64.4307 85.1807 64.944 84.5127 65.9707C83.8447 66.985 83.5107 68.5251 83.5107 70.5908ZM97.8535 70.5908C97.8535 73.9678 96.9629 76.6087 95.1816 78.5137C93.4004 80.4186 90.9202 81.3711 87.7412 81.3711C85.7497 81.3711 83.9932 80.9382 82.4717 80.0723C80.9502 79.194 79.7812 77.9385 78.9648 76.3057C78.1484 74.6729 77.7402 72.7679 77.7402 70.5908C77.7402 67.2015 78.6247 64.5667 80.3936 62.6865C82.1624 60.8063 84.6488 59.8662 87.8525 59.8662C89.8441 59.8662 91.6006 60.2992 93.1221 61.165C94.6436 62.0309 95.8125 63.2741 96.6289 64.8945C97.4453 66.515 97.8535 68.4137 97.8535 70.5908ZM121.678 81H116.019V68.8838C116.019 67.387 115.753 66.2676 115.221 65.5254C114.689 64.7708 113.841 64.3936 112.679 64.3936C111.095 64.3936 109.951 64.9255 109.246 65.9893C108.541 67.0407 108.188 68.791 108.188 71.2402V81H102.529V60.2559H106.853L107.613 62.9092H107.929C108.56 61.9072 109.425 61.1527 110.526 60.6455C111.64 60.126 112.901 59.8662 114.312 59.8662C116.724 59.8662 118.554 60.5218 119.804 61.833C121.053 63.1318 121.678 65.012 121.678 67.4736V81Z"
+            fill="white" />
+          <path
+            d="M143.962 73.4668C143.962 75.916 143.077 77.8457 141.309 79.2559C139.552 80.666 137.103 81.3711 133.961 81.3711C131.066 81.3711 128.506 80.8268 126.279 79.7383V74.3945C128.11 75.2109 129.656 75.7861 130.918 76.1201C132.192 76.4541 133.355 76.6211 134.406 76.6211C135.668 76.6211 136.633 76.3799 137.301 75.8975C137.981 75.415 138.321 74.6976 138.321 73.7451C138.321 73.2132 138.173 72.7432 137.876 72.335C137.579 71.9144 137.14 71.5124 136.559 71.1289C135.99 70.7454 134.821 70.1331 133.052 69.292C131.394 68.5127 130.151 67.7643 129.322 67.0469C128.493 66.3294 127.832 65.4945 127.337 64.542C126.842 63.5895 126.595 62.4762 126.595 61.2021C126.595 58.8024 127.405 56.916 129.025 55.543C130.658 54.1699 132.91 53.4834 135.779 53.4834C137.189 53.4834 138.532 53.6504 139.806 53.9844C141.092 54.3184 142.434 54.7884 143.832 55.3945L141.977 59.8662C140.529 59.2725 139.329 58.8581 138.377 58.623C137.437 58.388 136.509 58.2705 135.594 58.2705C134.505 58.2705 133.67 58.5241 133.089 59.0312C132.507 59.5384 132.217 60.2002 132.217 61.0166C132.217 61.5238 132.334 61.9691 132.569 62.3525C132.804 62.7236 133.175 63.0885 133.683 63.4473C134.202 63.7936 135.421 64.4245 137.338 65.3398C139.874 66.5521 141.612 67.7705 142.552 68.9951C143.492 70.2074 143.962 71.6979 143.962 73.4668ZM152.942 70.5908C152.942 72.6442 153.276 74.1966 153.944 75.248C154.625 76.2995 155.726 76.8252 157.247 76.8252C158.756 76.8252 159.839 76.3057 160.494 75.2666C161.162 74.2152 161.496 72.6566 161.496 70.5908C161.496 68.5374 161.162 66.9974 160.494 65.9707C159.826 64.944 158.731 64.4307 157.21 64.4307C155.701 64.4307 154.612 64.944 153.944 65.9707C153.276 66.985 152.942 68.5251 152.942 70.5908ZM167.285 70.5908C167.285 73.9678 166.395 76.6087 164.613 78.5137C162.832 80.4186 160.352 81.3711 157.173 81.3711C155.181 81.3711 153.425 80.9382 151.903 80.0723C150.382 79.194 149.213 77.9385 148.396 76.3057C147.58 74.6729 147.172 72.7679 147.172 70.5908C147.172 67.2015 148.056 64.5667 149.825 62.6865C151.594 60.8063 154.08 59.8662 157.284 59.8662C159.276 59.8662 161.032 60.2992 162.554 61.165C164.075 62.0309 165.244 63.2741 166.061 64.8945C166.877 66.515 167.285 68.4137 167.285 70.5908ZM185.135 81L184.04 78.1797H183.892C182.939 79.3796 181.956 80.2145 180.941 80.6846C179.939 81.1423 178.628 81.3711 177.008 81.3711C175.016 81.3711 173.445 80.8021 172.295 79.6641C171.157 78.526 170.588 76.9056 170.588 74.8027C170.588 72.6009 171.355 70.9805 172.889 69.9414C174.435 68.89 176.76 68.3086 179.865 68.1973L183.465 68.0859V67.1768C183.465 65.0739 182.389 64.0225 180.236 64.0225C178.579 64.0225 176.631 64.5234 174.392 65.5254L172.518 61.7031C174.905 60.4538 177.552 59.8291 180.459 59.8291C183.242 59.8291 185.376 60.4352 186.86 61.6475C188.345 62.8597 189.087 64.7028 189.087 67.1768V81H185.135ZM183.465 71.3887L181.275 71.4629C179.63 71.5124 178.406 71.8092 177.602 72.3535C176.798 72.8978 176.396 73.7266 176.396 74.8398C176.396 76.4355 177.311 77.2334 179.142 77.2334C180.453 77.2334 181.498 76.8561 182.277 76.1016C183.069 75.347 183.465 74.3451 183.465 73.0957V71.3887ZM206.51 59.8662C207.277 59.8662 207.914 59.9219 208.421 60.0332L207.994 65.3398C207.536 65.2161 206.98 65.1543 206.324 65.1543C204.518 65.1543 203.108 65.6182 202.094 66.5459C201.092 67.4736 200.591 68.7725 200.591 70.4424V81H194.932V60.2559H199.218L200.053 63.7441H200.331C200.974 62.5814 201.84 61.6475 202.929 60.9424C204.03 60.2249 205.223 59.8662 206.51 59.8662ZM220.778 63.8926C219.578 63.8926 218.638 64.276 217.958 65.043C217.278 65.7975 216.888 66.8737 216.789 68.2715H224.73C224.706 66.8737 224.341 65.7975 223.636 65.043C222.931 64.276 221.978 63.8926 220.778 63.8926ZM221.576 81.3711C218.236 81.3711 215.626 80.4495 213.746 78.6064C211.866 76.7633 210.926 74.1533 210.926 70.7764C210.926 67.3005 211.792 64.6162 213.523 62.7236C215.268 60.8187 217.674 59.8662 220.741 59.8662C223.673 59.8662 225.955 60.7012 227.588 62.3711C229.221 64.041 230.037 66.348 230.037 69.292V72.0381H216.659C216.721 73.6462 217.197 74.9017 218.088 75.8047C218.979 76.7077 220.228 77.1592 221.836 77.1592C223.085 77.1592 224.267 77.0293 225.38 76.7695C226.493 76.5098 227.656 76.0954 228.868 75.5264V79.9053C227.879 80.4001 226.821 80.765 225.695 81C224.57 81.2474 223.197 81.3711 221.576 81.3711ZM249.111 74.8398C249.111 76.9674 248.369 78.5879 246.885 79.7012C245.413 80.8145 243.205 81.3711 240.261 81.3711C238.752 81.3711 237.465 81.266 236.401 81.0557C235.338 80.8577 234.342 80.5609 233.414 80.165V75.4893C234.465 75.984 235.647 76.3984 236.958 76.7324C238.282 77.0664 239.444 77.2334 240.446 77.2334C242.5 77.2334 243.526 76.6396 243.526 75.4521C243.526 75.0068 243.39 74.6481 243.118 74.376C242.846 74.0915 242.376 73.776 241.708 73.4297C241.04 73.071 240.149 72.6566 239.036 72.1865C237.44 71.5186 236.265 70.9001 235.511 70.3311C234.769 69.762 234.224 69.1126 233.878 68.3828C233.544 67.6406 233.377 66.7314 233.377 65.6553C233.377 63.8122 234.088 62.3896 235.511 61.3877C236.946 60.3734 238.974 59.8662 241.597 59.8662C244.095 59.8662 246.526 60.4105 248.889 61.499L247.182 65.5811C246.143 65.1357 245.172 64.7708 244.269 64.4863C243.366 64.2018 242.444 64.0596 241.504 64.0596C239.834 64.0596 238.999 64.5111 238.999 65.4141C238.999 65.9212 239.265 66.3604 239.797 66.7314C240.341 67.1025 241.522 67.653 243.341 68.3828C244.961 69.0384 246.149 69.6507 246.903 70.2197C247.658 70.7887 248.215 71.4443 248.573 72.1865C248.932 72.9287 249.111 73.8132 249.111 74.8398Z"
+            fill="#0CF6FF" />
+          <rect x="95" width="61.2245" height="40" fill="url(#pattern0)" />
+          <defs>
+            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+              <use xlink:href="#image0" transform="scale(0.00444444 0.00680272)" />
+            </pattern>
+            <image id="image0" width="225" height="147"
+              xlink:href="data:image/png;base64,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" />
+          </defs>
+        </svg>
+      </a>
 
-<main class="container">
-  <section>
-    <div  class="warning">
-      <p class="paragraph-title">OOPS! <br>
-        ESTAMOS EM CONSTRUÇÃO
-      </p>
-      
-      <p>
-        Nós da <strong style="color: #5ce1e6;">SM CODE</strong>  agradecemos sua visita. <br> No momento estamos trabalhando na construção da página. <br>
-        Volte em breve.
-      </p>
-      <div class="contato">
-        <a href="mailto: eng.milton.soares@gmail.com" id="contato">Entre em contato</a>
+      <nav>
+        <ul>
+          <li><a href="#">Projetos</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="social-header">
+      <ul>
+        <li><a href="#">
+            <img class="social-img" src="./assets/images/instagram-brands.svg" alt="Instagram icon">
+          </a></li>
+        <li><a href="#">
+            <img class="social-img" src="./assets/images/behance-brands.svg" alt="Behance icon">
+          </a></li>
+        <li><a href="#">
+            <img class="social-img" src="./assets/images/linkedin-in-brands.svg" alt="Linkedin icon">
+          </a></li>
+        <li><a href="#">
+            <img class="social-img" src="./assets/images/github-brands.svg" alt="Github icon">
+          </a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="hero">
+    <div class="content">
+      <h1 class="stagger1">Te ajudo a desenvolver sua marca profissional</h1>
+      <div class="meet stagger1">
+        <span>👇🏼</span>
+        <p>Saiba mais sobre mim</p>
+      </div>
+      <svg class="scroll stagger1" width="55" height="110" viewBox="0 0 55 110" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <rect x="5" y="5" width="45" height="100" rx="22.5" stroke="white" stroke-width="10" />
+        <circle class="cirlce" cx="27" cy="55" r="12" fill="#fff" />
+      </svg>
+    </div>
+    <svg class="hero-design" width="700" height="699" viewBox="0 0 700 699" fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <rect class="square-anim" x="354" width="177" height="177" rx="25" fill="#393E46" />
+      <rect class="square-anim" x="354" y="349" width="177" height="177" rx="25" fill="#393E46" />
+      <rect class="square-anim" x="523" y="177" width="177" height="177" rx="25" fill="#545454" fill-opacity="0.5" />
+      <path class="square-anim"
+        d="M179 202C179 188.193 190.193 177 204 177H331C344.807 177 356 188.193 356 202V329C356 342.807 344.807 354 331 354H204C190.193 354 179 342.807 179 329V202Z"
+        fill="white" />
+      <path class="square-anim"
+        d="M179 547C179 533.193 190.193 522 204 522H331C344.807 522 356 533.193 356 547V674C356 687.807 344.807 699 331 699H204C190.193 699 179 687.807 179 674V547Z"
+        fill="white" />
+      <path class="square-anim"
+        d="M0 374C0 360.193 11.1929 349 25 349H152C165.807 349 177 360.193 177 374V501C177 514.807 165.807 526 152 526H25C11.1929 526 0 514.807 0 501V374Z"
+        fill="white" fill-opacity="0.5" />
+      <circle class="square-anim" cx="443" cy="266" r="80" fill="#7304FF" />
+      <circle class="square-anim" cx="268" cy="438" r="80" fill="#0CF6FF" />
+    </svg>
+  </div>
+
+  <section class="featured">
+    <div class="left">
+      <div class="inner transition2">
+        <p class="subtitle">Featured Project</p>
+        <a href="#" class="featured-title">
+          CreateAccount Form
+        </a>
+        <p class="featured-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, amet.</p>
       </div>
     </div>
+    <img class="right transition2" src="./assets/images/resultado-1.2.png" alt="">
+  </section>
 
-    <div class="warning-img">
-      <img src="./images/Page_Under_Construction.jpg" alt="" id="img-warning">
+  <section class="skills">
+    <div class="skills-container">
+      <ul>
+        <li class="transition2">
+          <div class="icon-skill-container one">
+            <img class="social-img" src="./assets/images/figma-icon.svg" alt="Figma UX / UI Design Icon">
+          </div>
+          <p class="skill-title">UI / UX Design</p>
+          <p class="featured-desc skill-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam nulla
+            repudiandae consequatur odio vel autem perferendis quisquam corrupti nisi voluptatum?</p>
+        </li>
+        <li class="transition2">
+          <div class="icon-skill-container two">
+            <img class="social-img" src="./assets/images/html-e-css.svg" alt="HTML & CSS Icon">
+          </div>
+          <p class="skill-title">HTML e CSS</p>
+          <p class="featured-desc skill-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam nulla
+            repudiandae consequatur odio vel autem perferendis quisquam corrupti nisi voluptatum?</p>
+        </li>
+        <li class="transition2">
+          <div class="icon-skill-container three">
+            <img class="social-img" src="./assets/images/js-square-brands.svg" alt="JavaScript Icons">
+          </div>
+          <p class="skill-title">JavaScript</p>
+          <p class="featured-desc skill-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam nulla
+            repudiandae consequatur odio vel autem perferendis quisquam corrupti nisi voluptatum?</p>
+        </li>
+      </ul>
     </div>
   </section>
-</main>
 
+  <section class="portfolio">
+    <div class="portfolio-container transition3">
+      <div class="portfolio-left">
+        <div class="inner">
+          <p class="subtitle">Subtitulo</p>
+          <p class="featured-title">O titulo ta aqui</p>
+          <p class="featured-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ratione laborum
+            adipisci,
+            nisi temporibus magni quam a reprehenderit porro repellat?</p>
+        </div>
+      </div>
+      <a href="#"><img src="./assets/images/resultado-1.2.png" alt="Resultado final do"></a>
+    </div>
+    <div class="portfolio-container transition3">
+      <div class="portfolio-left">
+        <div class="inner">
+          <p class="subtitle">Subtitulo</p>
+          <p class="featured-title">O titulo ta aqui</p>
+          <p class="featured-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ratione laborum
+            adipisci,
+            nisi temporibus magni quam a reprehenderit porro repellat?</p>
+        </div>
+      </div>
+      <a href="#"><img src="./assets/images/resultado-1.2.png" alt="Resultado final do"></a>
+    </div>
+    <div class="portfolio-container transition3">
+      <div class="portfolio-left">
+        <div class="inner">
+          <p class="subtitle">Subtitulo</p>
+          <p class="featured-title">O titulo ta aqui</p>
+          <p class="featured-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ratione laborum
+            adipisci,
+            nisi temporibus magni quam a reprehenderit porro repellat?</p>
+        </div>
+      </div>
+      <a href="#"><img src="./assets/images/resultado-1.2.png" alt="Resultado final do"></a>
+    </div>
+  </section>
 
-    <footer>
-      <div> &#169; <strong>SM Code</strong> 2021 | Todos os direitos reservados </div>
-
-    </footer>
 
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"
+  integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ=="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+
+<script src="./script.js"></script>
 
 </html>
